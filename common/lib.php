@@ -30,7 +30,7 @@ if(version_compare(PHP_VERSION, '5.1.2', '>=')){
      * Fall back to traditional autoload for old PHP versions
      * @param string $classname The name of the class to load
      */
-    function __autoload($classname)
+    function spl_autoload_register($classname)
     {
         autoloader($classname);
     }
@@ -590,7 +590,7 @@ function close_html_tags($text)
     preg_match_all('/<[^>]*>/', $text, $tags);
     $list = array();
     foreach($tags[0] as $tag){
-      if($tag{1} != '/'){
+      if($tag[1] != '/'){
           preg_match('/<([a-z]+[0-9]*)/i', $tag, $type);
           if(isset($type[1])) $list[] = $type[1];
       }else{
