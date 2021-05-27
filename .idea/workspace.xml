@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="20618cff-b99a-4a99-aa79-f570e33d28f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/inc_header_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/inc_header_common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/inc_top.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/inc_top.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/modules/booking/booking/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/modules/booking/booking/lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/modules/default/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/modules/default/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/common/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/define.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/define.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/lib.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/setenv.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/setenv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery-activmap/js/jquery-activmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery-activmap/js/jquery-activmap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery-activmap/js/jquery-activmap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery-activmap/js/jquery-activmap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/images/logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +53,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp-clean\htdocs\hotels\templates\default\images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,14 +74,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622046028951</updated>
-      <workItem from="1622046030086" duration="1351000" />
+      <workItem from="1622046030086" duration="2820000" />
+      <workItem from="1622052004005" duration="18000" />
+      <workItem from="1622146570142" duration="4488000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1032" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622150878827">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1032" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1622150878827" />
+    <state x="669" y="461" key="FileChooserDialogImpl" timestamp="1622052019869">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="669" y="461" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1536.864@0.0.1920.1080" timestamp="1622052019869" />
     <state x="2631" y="302" key="Github.ShareDialog" timestamp="1622046199915">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -56,9 +111,30 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2516" y="109" key="Github.UntrackedFilesDialog/0.0.1920.1080/1920.0.1536.864@1920.0.1536.864" timestamp="1622046207660" />
-    <state x="2461" y="137" width="582" height="534" key="find.popup" timestamp="1622047384462">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state width="620" height="292" key="GridCell.Tab.0.bottom" timestamp="1622151285050">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="2461" y="137" width="582" height="534" key="find.popup/0.0.1920.1080/1920.0.1536.864@1920.0.1536.864" timestamp="1622047384462" />
+    <state width="620" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1622151285050" />
+    <state width="620" height="292" key="GridCell.Tab.0.center" timestamp="1622151285050">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="620" height="292" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1622151285050" />
+    <state width="620" height="292" key="GridCell.Tab.0.left" timestamp="1622151285049">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="620" height="292" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1622151285049" />
+    <state width="620" height="292" key="GridCell.Tab.0.right" timestamp="1622151285050">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="620" height="292" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1622151285050" />
+    <state x="676" y="171" width="728" height="780" key="find.popup" timestamp="1622155015981">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2461" y="137" width="582" height="624" key="find.popup/0.0.1920.1080/1920.0.1536.864@1920.0.1536.864" timestamp="1622048165255" />
+    <state x="676" y="171" width="728" height="780" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1622155015981" />
+    <state x="1103" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1622153689837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1103" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1622153689837" />
   </component>
 </project>

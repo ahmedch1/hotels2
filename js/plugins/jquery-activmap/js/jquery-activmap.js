@@ -1,7 +1,3 @@
-/* Activ'Map Plugin 2.0.0
- * Copyright (c) 2015-2020 Pandao
- * Documentation : https://activmap.pandao.eu/doc
- */
 (function($){
     
     $.activmap = {

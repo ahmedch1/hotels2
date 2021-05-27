@@ -180,7 +180,7 @@ ALTER TABLE pm_page ADD CONSTRAINT page_lang_fkey FOREIGN KEY (lang) REFERENCES 
 
 INSERT INTO pm_page (id, lang, name, title, subtitle, title_tag, alias, descr, robots, keywords, intro, text, id_parent, page_model, article_model, home, checked, rank, add_date, edit_date, comment, rating, system) VALUES
 (1, 1, 'Accueil', 'Lorem ipsum dolor sit amet', 'Consectetur adipiscing elit', 'Accueil', '', '', 'index,follow', '', '', '', NULL, 'home', '', 1, 1, 1, INSTALL_DATE, INSTALL_DATE, 0, 0, 0),
-(1, 2, 'Home', 'Panda Multi Resorts, Luxury Hotels', '', 'Panda Multi Resorts, web software to create and manage multi hotels platforms', '', '', 'index,follow', '', '', '<blockquote class="text-center">\r\n<p>A man travels the world over in search of what he needs and returns home to find it.</p>\r\n</blockquote>\r\n\r\n<p class="text-muted" style="text-align: center;">- George A. Moore -</p>\r\n', NULL, 'home', '', 1, 1, 1, INSTALL_DATE, INSTALL_DATE, 0, 0, 0),
+(1, 2, 'Home', 'Multi Resorts, Luxury Hotels', '', 'Multi Resorts, web software to create and manage multi hotels platforms', '', '', 'index,follow', '', '', '<blockquote class="text-center">\r\n<p>A man travels the world over in search of what he needs and returns home to find it.</p>\r\n</blockquote>\r\n\r\n<p class="text-muted" style="text-align: center;">- George A. Moore -</p>\r\n', NULL, 'home', '', 1, 1, 1, INSTALL_DATE, INSTALL_DATE, 0, 0, 0),
 (1, 3, 'ترحيب', 'هو سقطت الساحلية ذات, أن.', 'غير بمعارضة وهولندا، الإقتصادية قد, فقد الفرنسي المعاهدات قد من.', 'ترحيب', '', '', 'index,follow', '', '', '', NULL, 'home', '', 1, 1, 1, INSTALL_DATE, INSTALL_DATE, 0, 0, 0),
 (2, 1, 'Contact', 'Contact', '', 'Contact', 'contact', '', 'index,follow', '', '', '', NULL, 'contact', '', 0, 1, 11, INSTALL_DATE, INSTALL_DATE, 0, 0, 0),
 (2, 2, 'Contact', 'Contact', '', 'Contact', 'contact', '', 'index,follow', '', '', '', NULL, 'contact', '', 0, 1, 11, INSTALL_DATE, INSTALL_DATE, 0, 0, 0),
@@ -278,7 +278,7 @@ ALTER TABLE pm_menu ADD CONSTRAINT menu_lang_fkey FOREIGN KEY (lang) REFERENCES 
 
 INSERT INTO pm_menu (id, lang, name, title, id_parent, item_type, id_item, url, main, footer, checked, rank) VALUES
 (1, 1, 'Accueil', 'Lorem ipsum dolor sit amet', NULL, 'page', 1, NULL, 1, 0, 1, 1),
-(1, 2, 'Home', 'Panda Multi Resorts, Luxury Hotels', NULL, 'page', 1, NULL, 1, 0, 1, 1),
+(1, 2, 'Home', 'Hotels Mariott', NULL, 'page', 1, NULL, 1, 0, 1, 1),
 (1, 3, 'ترحيب', 'هو سقطت الساحلية ذات, أن.', NULL, 'page', 1, NULL, 1, 0, 1, 1),
 (2, 1, 'Contact', 'Contact', NULL, 'page', 2, NULL, 1, 1, 1, 9),
 (2, 2, 'Contact', 'Contact', NULL, 'page', 2, NULL, 1, 1, 1, 9),
@@ -702,7 +702,7 @@ ALTER TABLE pm_slide ADD CONSTRAINT slide_page_fkey FOREIGN KEY (id_page, lang) 
 
 INSERT INTO pm_slide (id, lang, legend, url, id_page, checked, rank) VALUES
 (1, 1, '', '', 1, 1, 2),
-(1, 2, '<h1>Book your holydays with Panda Multi Resorts</h1>\r\n\r\n<h2>Fast, Easy and Powerfull</h2>\r\n', '', 1, 1, 2),
+(1, 2, '<h1>Book your holydays with Mariott Hotels</h1>\r\n\r\n<h2>Fast, Easy and Powerfull</h2>\r\n', '', 1, 1, 2),
 (1, 3, '', '', 1, 1, 2),
 (2, 1, '', '', 1, 1, 3),
 (2, 2, '<h1>A dream stay at the best price</h1>\r\n\r\n<h2>Best price guarantee</h2>\r\n', '', 1, 1, 3),
@@ -762,7 +762,7 @@ CREATE TABLE IF NOT EXISTS pm_location(
 --
 
 INSERT INTO pm_location (id, name, address, lat, lng, checked, pages) VALUES
-(1, 'Panda Multi Resorts', 'Maldives Mint, Neeloafaru Magu 20014, Maldives', 4.174411, 73.517851, 1, '2');
+(1, 'Mariott Hotels', 'Maldives Mint, Neeloafaru Magu 20014, Maldives', 4.174411, 73.517851, 1, '2');
 
 -- ================ CREATION OF THE TABLE pm_message =============
 
@@ -1972,7 +1972,7 @@ INSERT INTO pm_text (id, lang, name, value) VALUES
 (98, 1, 'DOWN_PAYMENT', 'Acompte'),
 (98, 2, 'DOWN_PAYMENT', 'Down payment'),
 (98, 3, 'DOWN_PAYMENT', 'Down payment'),
-(99, 1, 'PAYMENT_CHECK_NOTICE', 'Merci d''envoyer un chèque à "Panda Multi Resorts, Neeloafaru Magu, Maldives" d''un montant de {amount}.<br>Votre réservation sera validée à réception du paiement.<br>Merci de votre visite et à bientôt !'),
+(99, 1, 'PAYMENT_CHECK_NOTICE', 'Merci d''envoyer un chèque à "Mariott Hotels, Neeloafaru Magu, Maldives" d''un montant de {amount}.<br>Votre réservation sera validée à réception du paiement.<br>Merci de votre visite et à bientôt !'),
 (99, 2, 'PAYMENT_CHECK_NOTICE', 'Thank you for sending a check of {amount} to "Panda Multi Resorts, Neeloafaru Magu, Maldives".<br>Your reservation will be confirmed upon receipt of the payment.<br>Thank you for your visit and see you soon!'),
 (99, 3, 'PAYMENT_CHECK_NOTICE', 'Thank you for sending a check of {amount} to "Panda Multi Resorts, Neeloafaru Magu, Maldives".<br>Your reservation will be confirmed upon receipt of the payment.<br>Thank you for your visit and see you soon!'),
 (100, 1, 'PAYMENT_ARRIVAL_NOTICE', 'Veuillez régler le solde de votre réservation d''un montant de {amount} à votre arrivée.<br>Merci de votre visite et à bientôt !'),

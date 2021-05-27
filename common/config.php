@@ -2,7 +2,7 @@
 define('SITE_TITLE', 'Hotels');
 define('TIME_ZONE', 'Europe/London');
 define('DATE_FORMAT', '%F');
-define('TIME_FORMAT', '%I:%M %P');
+define('TIME_FORMAT', '%I:%M%P');
 define('CURRENCY_ENABLED', '1');
 define('CURRENCY_POS', 'before'); // before or after
 define('LANG_ENABLED', '0');
@@ -51,11 +51,11 @@ define('TOURIST_TAX_TYPE', 'fixed');
 define('ALLOW_COMMENTS', '1');
 define('ALLOW_RATINGS', '1'); // If comments enabled
 define('ENABLE_BOOKING_REQUESTS', '0'); // Possibility to make a reservation request if no availability
-define('ENABLE_MULTI_VENDORS', '0'); // Payments are made on the PayPal account of the hotels
+define('ENABLE_MULTI_VENDORS', '1'); // Payments are made on the PayPal account of the hotels
 define('BRAINTREE_MERCHANT_ID', '');
 define('BRAINTREE_PUBLIC_KEY', '');
 define('BRAINTREE_PRIVATE_KEY', '');
-define('CURRENCY_CONVERTER_KEY', ''); // currencyconverterapi.com API key
+define('CURRENCY_CONVERTER_KEY', 'bc23a2305a18fccf6b6d'); // currencyconverterapi.com API key
 define('SHOW_CALENDAR', '0');
 define('RAZORPAY_KEY_ID', '');
 define('RAZORPAY_KEY_SECRET', '');
