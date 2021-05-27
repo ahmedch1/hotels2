@@ -650,31 +650,7 @@ $csrf_token = get_token('list'); ?>
                             <?php
                             if(in_array('all', $permissions)){
                                 if($db != false && MULTILINGUAL && $total_lang > 0){ ?>
-                                    <div class="well">
-                                        <div id="translation">
-                                            <p><?php echo $texts['COMPLETE_LANGUAGE']; ?></p>
-                                            <?php
-                                            foreach($result_lang as $row_lang){
-                                                $id_lang = $row_lang['id'];
-                                                $title_lang = $row_lang['title']; ?>
-                                                
-                                                <input type="checkbox" name="languages[]" value="<?php echo $id_lang; ?>">
-                                                <?php
-                                                $result_img_lang = $db->query('SELECT * FROM pm_lang_file WHERE id_item = '.$id_lang.' AND type = \'image\' AND file != \'\' ORDER BY rank LIMIT 1');
-                                                if($result_img_lang !== false && $db->last_row_count() > 0){
-                                                    $row_img_lang = $result_img_lang->fetch();
-                                                    
-                                                    $id_img_lang = $row_img_lang['id'];
-                                                    $file_img_lang = $row_img_lang['file'];
-                                                
-                                                    if(is_file(SYSBASE.'medias/lang/big/'.$id_img_lang.'/'.$file_img_lang))
-                                                        echo '<img src="'.DOCBASE.'medias/lang/big/'.$id_img_lang.'/'.$file_img_lang.'" alt="" border="0" class="flag"> ';
-                                                }
-                                                echo $title_lang.'<br>';
-                                            } ?>
-                                            <button type="submit" name="complete_lang" class="btn btn-default mt10" data-toggle="tooltip" data-placement="right" title="<?php echo $texts['COMPLETE_LANG_NOTICE']; ?>"><i class="fas fa-fw fa-magic"></i> <?php echo $texts['APPLY_LANGUAGE']; ?></button>
-                                        </div>
-                                    </div>
+
                                     <?php
                                 }
                             }
